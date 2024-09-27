@@ -148,12 +148,16 @@ img {
 
   .lessons .col {
     width: 100%;
+    padding: 0 60px 0 60px;
+  }
+
+  .row .col:last-child {
+    padding-top: 60px;
   }
 
   .lessons .col img {
     width: 100%;
     height: 100%;
-    padding: 0 60px 60px;
   }
 
   h1 {
@@ -162,6 +166,10 @@ img {
 
   h2 {
     font-size: 2.4rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
   }
 
   /* debug
