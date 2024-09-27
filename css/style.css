@@ -184,6 +184,10 @@ img {
     height: 100%;
   }
 
+  .why-us .row .col:last-child {
+    padding-bottom: 60px;
+  }
+
   h1 {
     font-size: 3.2rem;
   }
