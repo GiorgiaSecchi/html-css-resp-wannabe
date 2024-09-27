@@ -160,6 +160,10 @@ img {
     padding-top: 60px;
   }
 
+  .steps {
+    margin: 3rem 0 0 0;
+  }
+
   .steps .col {
     width: 100%;
     padding: 70px 60px 0px 60px;
@@ -186,6 +190,13 @@ img {
 
   .why-us .row .col:last-child {
     padding-bottom: 60px;
+  }
+
+  .why-us {
+    background-color: #222222;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
   }
 
   h1 {
