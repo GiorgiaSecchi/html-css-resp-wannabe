@@ -128,18 +128,18 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-@media screen and (min-width 768px) {
-  .site-header {
-    min-width: 1140px;
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
   }
 
-  .step {
-    min-width: 1140px;
+  h1 {
+    color: red;
   }
 }
 
-@media screen and (max-width 768px) {
+@media screen and (max-width: 480px) {
   h2 {
-    background-color: green;
+    color: green;
   }
 }
